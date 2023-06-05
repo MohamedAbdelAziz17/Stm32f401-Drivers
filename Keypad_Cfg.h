@@ -1,0 +1,19 @@
+#ifndef KEYPAD_CFG_H_
+#define KEYPAD_CFG_H_
+
+#include "STD_TYPES.h"
+#include "DIO_PROGRAM.h"
+
+#define KEYPAD_ROW_PORT		_IO_GPIOB
+#define KEYPAD_ROW_START	_IO_PIN12
+#define KEYPAD_ROW_END		_IO_PIN15
+
+
+
+#define KEYPAD_COL_PORT		_IO_GPIOB
+#define KEYPAD_COL_START	_IO_PIN8
+#define KEYPAD_COL_END		_IO_PIN10
+
+
+
+#endif
